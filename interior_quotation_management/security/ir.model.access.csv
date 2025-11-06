@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_interior_quotation,access_interior_quotation,model_interior_quotation,,1,1,1,1
+access_interior_quotation_material,access_interior_quotation_material,model_interior_quotation_material,,1,1,1,1

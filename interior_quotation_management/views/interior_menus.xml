@@ -1,0 +1,29 @@
+<odoo>
+
+        <!-- Main Menu -->
+        <menuitem id="menu_interior_root" name="Interior Quotations" sequence="10"/>
+
+        <menuitem id="menu_interior_quotation_main"
+                  name="Quotations"
+                  parent="menu_interior_root"
+                  action="action_interior_quotation"
+                  sequence="1"/>
+
+        <menuitem id="menu_interior_history"
+                  name="Quotation History"
+                  parent="menu_interior_root"
+                  sequence="2"/>
+
+        <menuitem id="menu_interior_products"
+                  name="Products &amp; Materials"
+                  parent="menu_interior_root"
+                  action="product.product_normal_action_sell"
+                  sequence="3"/>
+
+        <menuitem id="menu_interior_reports"
+                  name="Reports"
+                  parent="menu_interior_root"
+                  sequence="4"/>
+
+
+</odoo>

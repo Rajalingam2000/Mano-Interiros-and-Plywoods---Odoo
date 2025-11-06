@@ -1,0 +1,104 @@
+/* ===== Custom Odoo Backend Theme (Black, Red, White) ===== */
+
+/* Main background */
+.o_web_client {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* Top navigation bar */
+.o_main_navbar {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border-bottom: 2px solid #ff0000 !important;
+}
+
+/* Navbar icons & text */
+.o_main_navbar .o_menu_brand,
+.o_main_navbar .o_menu_sections .dropdown-toggle,
+.o_main_navbar .o_menu_systray .dropdown-toggle {
+    color: #ffffff !important;
+}
+
+/* Active menu highlight */
+.o_main_navbar .o_menu_brand:hover,
+.o_main_navbar .o_menu_sections .dropdown-toggle:hover {
+    color: #ff0000 !important;
+}
+
+/* Control panel (top bar inside modules) */
+.o_control_panel {
+    background-color: #f9f9f9 !important;
+    border-bottom: 1px solid #ff0000 !important;
+}
+
+/* Sidebar or kanban toolbar */
+.o_control_panel .breadcrumb {
+    color: #000000 !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important;
+    color: #ffffff !important;
+}
+
+.btn-primary:hover {
+    background-color: #cc0000 !important;
+    border-color: #cc0000 !important;
+}
+
+.btn-secondary {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+/* Kanban cards */
+.o_kanban_view .o_kanban_record {
+    background-color: #ffffff !important;
+    border: 1px solid #ff0000 !important;
+    color: #000000 !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* List view header */
+.o_list_view th {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+/* List view rows */
+.o_list_view td {
+    color: #000000 !important;
+}
+
+/* Form view labels */
+.o_form_label {
+    color: #ff0000 !important;
+    font-weight: 600;
+}
+
+/* Inputs and fields */
+.o_input, .o_field_widget {
+    border-color: #ff0000 !important;
+}
+
+/* Status bar (state indicators) */
+.o_statusbar_buttons .btn {
+    background-color: #ff0000 !important;
+    color: #fff !important;
+}
+
+/* Modal headers */
+.modal-header {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border-bottom: 2px solid #ff0000 !important;
+}
+
+/* Tooltip / popups */
+.tooltip-inner {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
